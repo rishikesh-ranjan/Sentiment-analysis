@@ -1,0 +1,61 @@
+.App {
+    /* text-align: center; */
+    display: flex;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
+  .x {
+    background-color: transparent;
+    width: 30vw;
+    height: 40vh;
+    margin: 50px 70px;
+    text-align: left;
+  }
+  
+  .y {
+    background-color: transparent;
+    margin: 20px 10px 10px 180px;
+    
+  }
+  
+  .y textarea {
+    width: 30vw;
+    height: 40vh;
+  }
+
+  .y button,p,h3{
+    margin-left: 8px;
+  }
+  .y button{
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  #toggle {
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .x {
+      width: 200px;
+      height: 200px;
+    }
+    .y Box {
+      width: 200px;
+      height: 200px;
+    }
+  }

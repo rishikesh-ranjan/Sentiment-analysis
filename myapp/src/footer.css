@@ -1,0 +1,15 @@
+.footer {
+    background-color: rgb(128, 175, 237);
+    display: flex;
+    width: 100vw;
+    bottom: 0px;
+    position: fixed;
+    align-items: center;
+    justify-content: center
+    
+}
+.footer h5{
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: justify;
+}
